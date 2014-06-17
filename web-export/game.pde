@@ -135,7 +135,7 @@ void arrowToEnemyCol(Arrow a){
 			
 			killCount++;
 			// 
-			enemySpawner.enemy_speed += map(killCount, 0, 20, 0, 0.5);
+			enemySpawner.enemy_speed += map(killCount, 0, 20, 0, 0.2);
 			// println(killCount);
 		}
 	}		
